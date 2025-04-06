@@ -1,4 +1,6 @@
-const playground = document.querySelector(".playground");
+import "./styles.css";
+
+const playground = document.querySelector(".overlapping-circle");
 const overlappingMessage = document.querySelector(".overlapping-message");
 let count = 0;
 

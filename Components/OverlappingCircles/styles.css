@@ -1,0 +1,32 @@
+.overlapping-circle {
+    height: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.overlapping-message {
+    display: none;
+    margin: 5px 0 0 0;
+}
+
+.circle-0 {
+    /* border: 2px solid darkslategrey; */
+    border-radius: 50%;
+    background-color: green;
+}
+
+.circle-1 {
+    /* width: 100px;
+  height: 100px; */
+    /* border: 2px solid darkslategrey; */
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.circle-2 {
+    /* width: 100px;
+  height: 100px; */
+    /* border: 2px solid darkslategrey; */
+    border-radius: 50%;
+    background-color: red;
+}

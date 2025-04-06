@@ -5,7 +5,9 @@ A collection of frontend machine coding challenges built using pure **HTML**, **
 ## 🚀 What’s Inside
 
 -   Overlapping Circles
+-   Random Password Generator
 -   Employee Database Management
+-   CountDown Timer
 -   Dynamic Forms
 -   Search & Filter UIs
 -   Sorting & Pagination

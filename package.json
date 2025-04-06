@@ -1,0 +1,17 @@
+{
+    "name": "machinify-vanilla",
+    "version": "1.0.0",
+    "description": "A collection of frontend machine coding challenges built using pure **HTML**, **CSS**, and **Vanilla JavaScript**. This project focuses on solving real-world UI problems and building functional components without relying on any frameworks or libraries.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "vite": "^6.2.5"
+    }
+}

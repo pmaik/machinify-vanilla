@@ -16,6 +16,7 @@
         <!-- Favicon -->
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
     </head>
+
     <body>
         <div class="root">
             <div class="header">
@@ -24,10 +25,94 @@
                 </h1>
             </div>
 
-            <h2 class="overlapping-message">Circles are overlapping</h2>
-            <div class="playground"></div>
+            <!-- <div class="overlapping-circle">
+                <h2 class="overlapping-message">Circles are overlapping</h2>
+            </div> -->
+
+            <!-- <div class="progress-bar-container">
+                <div class="progress-bar-header">
+                    <h1>Progress Bar</h1>
+                    <input
+                        type="number"
+                        maxlength="3"
+                        min="0"
+                        max="100"
+                        oninput="this.value=this.value.slice(0, maxLength)"
+                        class="progress-bar-input"
+                    />
+                </div>
+                <div class="progress-bar-wrapper">
+                    <div class="progress-bar"></div>
+                </div>
+            </div> -->
+
+            <div class="password-generator">
+                <h2 class="password-generator-heading">Password Generator</h2>
+                <div class="password-output">
+                    <p class="password-display">
+                        Password: <span class="password-value"></span>
+                    </p>
+                    <button class="password-copy-btn">COPY</button>
+                </div>
+
+                <div class="character-length">
+                    <div class="character-text">
+                        <p>Character Length</p>
+                        <p class="character-length-count">4</p>
+                    </div>
+                    <input
+                        type="range"
+                        name="password-length"
+                        class="password-length-input"
+                        min="4"
+                        max="20"
+                        value="4"
+                    />
+                </div>
+
+                <div class="checkbox-container">
+                    <label
+                        ><input
+                            type="checkbox"
+                            name="lowercase-letters"
+                            class="lowercase-checkbox"
+                            checked
+                        />Include Lowercase letters</label
+                    >
+                    <label
+                        ><input
+                            type="checkbox"
+                            name="uppercase-letters"
+                            class="uppercase-checkbox"
+                        />Include Uppercase letters</label
+                    >
+                    <label
+                        ><input
+                            type="checkbox"
+                            name="Numbers"
+                            class="number-checkbox"
+                        />Include Numbers</label
+                    >
+                    <label
+                        ><input
+                            type="checkbox"
+                            name="Symbols"
+                            class="symbol-checkbox"
+                        />Include Symbols</label
+                    >
+                </div>
+
+                <div class="generator-container">
+                    <div class="password-strength">
+                        <p>Strength:</p>
+                        <p class="password-strength-value">Poor</p>
+                    </div>
+
+                    <button class="generate-btn">GENERATE PASSWORD</button>
+                </div>
+            </div>
         </div>
 
-        <script src="./overlappingCircles.js"></script>
+        <script type="module" src="/main.js"></script>
     </body>
 </html>
