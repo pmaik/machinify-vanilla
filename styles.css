@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    background-color: darkslategray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.heading {
+    color: #fff;
+}
+
+.overlapping-message {
+    display: none;
+    margin: 5px 0 0 0;
+}
+
+.playground {
+    height: 500px;
+    width: 100%;
+}
+
+.circle-0 {
+    /* border: 2px solid darkslategrey; */
+    border-radius: 50%;
+    background-color: green;
+}
+
+.circle-1 {
+    /* width: 100px;
+    height: 100px; */
+    /* border: 2px solid darkslategrey; */
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.circle-2 {
+    /* width: 100px;
+    height: 100px; */
+    /* border: 2px solid darkslategrey; */
+    border-radius: 50%;
+    background-color: red;
+}
