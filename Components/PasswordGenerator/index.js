@@ -55,12 +55,17 @@ passwordCopyBtn.addEventListener("click", function () {
     navigator.clipboard
         .writeText(password)
         .then(() => {
-            alert("Password copied to clipboard!");
             console.log("Password copied to clipboard!");
         })
         .catch((err) => {
             console.error("Failed to copy: ", err);
         });
+
+    passwordCopyBtn.textContent = "COPIED";
+
+    setTimeout(() => {
+        passwordCopyBtn.textContent = "COPY";
+    }, 1000);
 });
 
 function generatePassword(
